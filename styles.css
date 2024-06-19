@@ -1,0 +1,54 @@
+/* Tänne tulevat kaikki tyylimuotoilut */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+nav li {
+    
+    background-color: blueviolet;
+    display: inline-block;
+}
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    background-color: white;
+    color: #000;
+}
+
+#menuIcon {
+    display: none;
+}
+
+.responsive a {
+    display: block;
+}
+
+/* Responsiiviset tyylit */
+
+@media screen and (max-width: 400px) {
+    nav li {
+        display: block;
+    }
+    
+    #menuIcon {
+        display: block;
+    }
+    
+    #menu li {
+        display: none;
+    }
+    
+    #menu.responsive li {
+        display: block;
+    }
+} 
