@@ -35,7 +35,7 @@ nav a {
 
 /* Responsiiviset tyylit */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     nav li {
         display: block;
     }
